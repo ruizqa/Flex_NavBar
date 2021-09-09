@@ -1,0 +1,97 @@
+
+*{
+    margin: 0;
+    padding: 0;
+       
+}
+
+
+h1,a, button{
+
+    font-family: "Roboto";
+    
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("./font/Roboto-Regular");
+    font-weight: normal;
+}
+
+
+@font-face {
+    font-family: Roboto;
+    src: url("./font/Roboto-Bold.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("./font/Roboto-Thin.ttf");
+    font-weight: thin;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    background-color: rgba(0, 0, 0, 0.822);
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 3%;
+    
+
+}
+
+.nav h1{
+    flex: 1;
+}
+
+.nav .nav-links{
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    flex: 1.1;
+    align-items: center;
+/*float es antiguo, pero se debe utilizar con overflow*/
+
+}
+
+li, button{
+
+    margin: 0% 1%;
+    display: inline-block;
+    align-content: center;
+    align-items: center;
+    
+}
+
+
+li a{
+    color: lightgray;
+    font-family: "Roboto";
+    text-decoration: none;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.active{
+    color: white;
+
+}
+
+button{
+    background-color: rgb(56, 185, 232);
+    color:white;
+    font-family: "Roboto";
+    font-weight: thin;
+    align-content: center;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 10%;
+    box-shadow: 3px 3px -1px -1px black;
+}
+
+
