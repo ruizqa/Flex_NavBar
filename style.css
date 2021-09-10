@@ -62,7 +62,7 @@ h1,a, button{
 li, button{
 
     margin: 0% 1%;
-    display: inline-block;
+    /* display: inline-block; */
     align-content: center;
     align-items: center;
     
